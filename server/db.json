@@ -1,0 +1,110 @@
+{
+  "movimientos": [
+    {
+      "id": 1,
+      "nombre": "October Rent",
+      "precio": -150,
+      "tipo": 0,
+      "idCategoria": 0,
+      "fecha": "2021-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "nombre": "November Rent",
+      "precio": -150,
+      "tipo": 0,
+      "idCategoria": 0,
+      "fecha": "2021-11-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "nombre": "December Rent",
+      "precio": -150,
+      "tipo": 0,
+      "idCategoria": 0,
+      "fecha": "2021-12-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "nombre": "January Rent",
+      "precio": -150,
+      "tipo": 0,
+      "idCategoria": 0,
+      "fecha": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "nombre": "Netflix October-December",
+      "precio": -20,
+      "tipo": 0,
+      "idCategoria": 3,
+      "fecha": "2021-12-08T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "nombre": "Salary October",
+      "precio": 1250,
+      "tipo": 1,
+      "idCategoria": 1,
+      "fecha": "2021-11-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "nombre": "Salary November",
+      "precio": 1300,
+      "tipo": 1,
+      "idCategoria": 1,
+      "fecha": "2021-12-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "nombre": "Salary December",
+      "precio": 1512,
+      "tipo": 1,
+      "idCategoria": 1,
+      "fecha": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "nombre": "Supermarket",
+      "precio": -26,
+      "tipo": 0,
+      "idCategoria": 2,
+      "fecha": "2022-01-05T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "nombre": "Chrismas presents",
+      "precio": -300,
+      "tipo": 0,
+      "idCategoria": 2,
+      "fecha": "2021-12-20T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "nombre": "Salary September ",
+      "precio": 1300,
+      "tipo": 1,
+      "idCategoria": 1,
+      "fecha": "2021-10-01T00:00:00.000Z"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 0,
+      "nombre": "House Rent"
+    },
+    {
+      "id": 1,
+      "nombre": "Work"
+    },
+    {
+      "id": 2,
+      "nombre": "Extra waste"
+    },
+    {
+      "id": 3,
+      "nombre": "Platforms"
+    }
+  ]
+}

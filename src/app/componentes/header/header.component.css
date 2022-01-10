@@ -1,0 +1,13 @@
+.centrado{
+    margin:auto;
+    cursor: pointer;
+}
+
+.centrado button{
+    color: #fff;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+

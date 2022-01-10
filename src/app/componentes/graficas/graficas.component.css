@@ -1,0 +1,13 @@
+mat-radio-button {
+    margin-right: 10px;
+}
+
+.mat-tab-label-content {
+    font-size: 11px;
+}
+
+.mat-tab-labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

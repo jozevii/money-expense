@@ -1,0 +1,55 @@
+table {
+    width: 100%;
+}
+
+.cobro {
+    color: rgb(244, 67, 54);
+}
+
+.ingreso {
+    color: rgb(139, 195, 74);
+}
+
+.completo{
+    width: 100%;
+}
+
+.btn{
+    background-color: #673ab7;
+    color: #fff;
+}
+
+.divflex {
+    display: flex;
+    justify-content: right;
+}
+
+.btn-editar {
+    margin-right: 4px;
+}
+
+
+@media (max-width: 787px) { 
+    th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+        padding: 2px;
+        text-align: center;
+    }
+
+    th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {
+        padding-left: 3px;
+        font-size: 12px;
+    }
+
+    th.mat-header-cell:last-of-type, td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+        padding-right: 0px;
+    }
+
+    .divflex {
+        margin-bottom: 10px;
+    }
+    
+    .btn-editar {
+        margin-right: 4px;
+        margin-bottom: 3px;
+    }
+}

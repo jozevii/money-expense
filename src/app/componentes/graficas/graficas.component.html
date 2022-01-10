@@ -1,0 +1,37 @@
+<div class="container">
+  <mat-tab-group>
+    <mat-tab label="Monthly waste">
+      <div>
+        <div style="display: block">
+          <canvas baseChart
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [type]="barChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Category income">
+      <div class="chart">
+        <canvas baseChart
+                [data]="pieChartData"
+                [type]="pieChartType"
+                [options]="pieChartOptions">
+        </canvas>
+      </div>
+    </mat-tab>
+    <mat-tab label="Category waste">
+      <div class="chart">
+        <canvas baseChart
+                [data]="pieChartData2"
+                [type]="pieChartType"
+                [options]="pieChartOptions">
+        </canvas>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+
+    
+</div>

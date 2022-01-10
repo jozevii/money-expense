@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+}
+
+.cobro {
+    color: rgb(244, 67, 54);
+}
+
+.ingreso {
+    color: rgb(139, 195, 74);
+}
+
+.completo{
+    width: 100%;
+}
+
+.btn{
+    background-color: #673ab7;
+    color: #fff;
+}
+
+.divflex {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+.btn-editar {
+    margin-right: 4px;
+}
+
+.texto-centrado {
+   text-align: center; 
+}
